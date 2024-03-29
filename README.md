@@ -2,7 +2,7 @@
 
 A single page web app developed with Angular v17.
 
-Author: [Warren Chen](https://clilog.ent)
+Author: [Warren Chen](https://clilog.net)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
