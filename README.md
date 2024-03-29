@@ -1,5 +1,9 @@
 # AngularTodo
 
+A single page web app developed with Angular v17.
+
+Author: [Warren Chen](http://clilog.ent)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
 ## Development server
