@@ -50,6 +50,7 @@ const Styles = `
   justify-content: center;
 }
 .to-do-wrapper {
+  width: 500px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -124,11 +125,13 @@ export class AppComponent {
   }
 
   addItem(description: string) {
-    this.allItems.unshift({
-      id: this.allItems.length +1,
-      description,
-      done: false,
-    })
+    if(description.length > 0) {
+      this.allItems.unshift({
+        id: this.allItems.length +1,
+        description,
+        done: false,
+      })
+    }
   }
 
   saveItem(id:number, description: string) {
