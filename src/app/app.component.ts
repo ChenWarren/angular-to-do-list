@@ -17,7 +17,7 @@ const Template = `
     <div class="row">
       <input #newItem placeholder="Add an to-do item" type="text" (keyup.enter)="addItem(newItem.value); newItem.value=''"
         id="addItemInput" />
-      <button (click)="addItem(newItem.value)">Add</button>
+      <button (click)="addItem(newItem.value); newItem.value=''">Add</button>
     </div>
 
     <ul>
@@ -157,5 +157,4 @@ export class AppComponent {
   }
 
 }
-
 
